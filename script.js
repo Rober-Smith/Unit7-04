@@ -9,10 +9,10 @@ function compare () {
   date = parseInt(date)
 
   if (date === 'tuesday' || date === 'thursday' && age > 12 && age < 25) {
-    date = document.getElementById('answer').innerHTML = 
+    date = document.getElementById('answer').innerHTML =
   'You get the discount'
-    } else {
-    date = document.getElementById('answer').innerHTML = 
+  } else {
+    date = document.getElementById('answer').innerHTML =
   'you must pay regular price'
   }
 }
