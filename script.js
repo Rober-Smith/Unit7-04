@@ -8,7 +8,7 @@ function compare () {
   date = document.getElementById('input2').value
   date = parseInt(date)
 
-  if (date === 'tuesday' || date === 'thursday' || age > 12 && age < 25) {
+  if (date === 'tuesday' || date === 'thursday' && age < 25) {
     date = document.getElementById('answer').innerHTML =
   'You get the discount'
   } else {
